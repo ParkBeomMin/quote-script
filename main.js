@@ -17,7 +17,10 @@ const setQuote = async () => {
     span.innerHTML = quote.name; // "Dave Barry, 컴퓨터광 유머작가";
     div.appendChild(p);
     div.appendChild(span);
+    const _target = target;
+    target.innerHTML = "";
     target.appendChild(div);
+    target.appendChild(_target);
   } else {
     console.log("Not Exsits qs-script");
   }
