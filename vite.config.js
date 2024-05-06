@@ -5,6 +5,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         entryFileNames: "index.min.js",
+        assetFileNames: "index.min.[ext]",
       },
     },
   },
