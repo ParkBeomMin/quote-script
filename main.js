@@ -2,7 +2,7 @@ import "./style.css";
 import { QUOTE_LIST } from "./quote";
 
 const setQuote = async () => {
-  const target = document.querySelector("#qs-script");
+  const target = document.querySelector(".qs-script");
   if (target) {
     await getFont();
     const quote = getQuote();
